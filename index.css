@@ -7,3 +7,90 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.subtitle {
+  color: #784834;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 2em;
+  color: #343331;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e5d8;
+}
+
+body h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: #343331;
+}
+
+#full-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 2em;
+  margin: 2em;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+#prep-time {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  background-color: #fff7fc;
+  padding: 0.5em;
+  line-height: 2em;
+}
+
+#prep-time h3 {
+  color: #7e425c;
+  padding-left: 2em;
+}
+
+#prep-time ul {
+  padding-left: 4em;
+}
+
+#prep-time li {
+  text-indent: 1.5em;
+}
+
+#prep-time li::marker {
+  color: #7e425c;
+}
+
+#ingredients {
+  font-weight: 300;
+}
+
+#ingredients ul {
+  padding-left: 1.2em;
+  list-style-type: square;
+}
+
+#ingredients li {
+  text-indent: 1.2em;
+}
