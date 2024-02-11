@@ -15,7 +15,7 @@
   <body>
     <div id="full-content">
     <header id="hero-section">
-      <img src="./assets/images/image-omelette.jpeg" alt="Omelette" class="hero-image">
+      <img class="hero-image" src="./assets/images/image-omelette.jpeg" alt="Omelette">
       <h1>Simple Omelette Recipe</h1>
 
       <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
@@ -50,10 +50,10 @@
         <h2 class="subtitle">Instructions</h2>
 
         <ol>
-          <li><strong>the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+          <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
           You can add a tablespoon of water or milk for a fluffier texture.</li>
 
-          <li><strong>the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+          <li><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
 
           <li><strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
           the eggs evenly coat the surface.</li>
@@ -71,30 +71,41 @@
 
     <div class="divider"></div>
 
-    <section id="table">
+    <section">
       <h2 class="subtitle">Nutrition</h2>
 
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
-
-      <ul>
-        <li>Calories
-        277kcal</li>
-
-        <li>Carbs
-        0g</li>
-
-        <li>Protein
-        20g</li>
-
-        <li>Fat
-        22g</li>
-      </ul>
+      <div id="table">
+        <div class="left-items">
+          <ul>
+            <li>Calories</li>
+            <div class="divider"></div>
+            <li>Carbs</li>
+            <div class="divider"></div>
+            <li>Protein</li>
+            <div class="divider"></div>
+            <li>Fat
+            </li>
+          </ul>
+        </div>
+        <div  class="right-items">
+          <ul>
+            <li>277kcal</li>
+            <div class="divider"></div>
+            <li>0g</li>
+            <div class="divider"></div>
+            <li>20g</li>
+            <div class="divider"></div>
+            <li>22g</li>
+          </ul>
+        </div>
+    </div>
     </section>
     
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://gabeoliveira.vercel.app/" target="_blank">Gabriel de Olviveira</a>.
-    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://gabeoliveira.vercel.app/" target="_blank">Gabriel de Olviveira</a>.
   </div>
   </body>
 </html>
